@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import { navItems } from "@/data";
 import { FloatingNav } from "@/components/ui/floating-navbar";
+import Grid from "@/components/Grid";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
+        <Grid />
       </div>
     </main>
   );

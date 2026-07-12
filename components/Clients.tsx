@@ -19,7 +19,8 @@ const Clients = () => {
           // Changed md:h-[30rem] to md:h-120. Reason: Tailwind intellisense
           // flagged the old arbitrary-value syntax as non-canonical, since
           // 30rem maps to Tailwind's h-120 scale value
-          className="h-[50vh] md:h-120 rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
+          // Changed h-[50vh] to h-auto. Reason: Tailwind intellisense flagged
+          className="h-auto md:h-120 rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
         >
           <InfiniteMovingCards
             items={testimonials}

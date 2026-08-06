@@ -55,9 +55,7 @@ Key highlights:
 
 ### 🖥️ Desktop View
 
-![Desktop Preview](public/exp1.svg)
-
-> 📝 **Note:** The image above is a temporary placeholder and is **not the actual project screenshot**. The `public/screenshots/` folder has not been added yet. The image will be replaced with the actual project screenshots once they are available.
+![Desktop Preview](public/design/design_3d-portfolio.png)
 
 ---
 
